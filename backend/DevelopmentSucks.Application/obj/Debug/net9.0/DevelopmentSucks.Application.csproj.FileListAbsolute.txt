@@ -1,0 +1,12 @@
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\bin\Debug\net9.0\DevelopmentSucks.Application.deps.json
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\bin\Debug\net9.0\DevelopmentSucks.Application.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\bin\Debug\net9.0\DevelopmentSucks.Application.pdb
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\DevelopmentSucks.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\DevelopmentSucks.Application.AssemblyInfoInputs.cache
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\DevelopmentSucks.Application.AssemblyInfo.cs
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\DevelopmentSucks.Application.csproj.CoreCompileInputs.cache
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\DevelopmentSucks.Application.sourcelink.json
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\DevelopmentSucks.Application.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\refint\DevelopmentSucks.Application.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\DevelopmentSucks.Application.pdb
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\ref\DevelopmentSucks.Application.dll
