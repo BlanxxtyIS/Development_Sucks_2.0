@@ -20,7 +20,7 @@ public class LanguagesService : ILanguagesService
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"{ex} - ERROR LANGUAGE");
+            Console.WriteLine($"{ex} - ERROR GET ALL LANGUAGES");
             throw;
         }
     }
@@ -33,7 +33,7 @@ public class LanguagesService : ILanguagesService
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"{ex} - ERROR LANGUAGE");
+            Console.WriteLine($"{ex} - ERROR GET ONE LANGUAGE");
             throw;
         }
     }
@@ -46,7 +46,7 @@ public class LanguagesService : ILanguagesService
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"{ex} - ERROR LANGUAGE");
+            Console.WriteLine($"{ex} - ERROR CREATE LANGUAGE");
             throw;
         }
     }
@@ -59,6 +59,7 @@ public class LanguagesService : ILanguagesService
         }
         catch (Exception ex)
         {
+            Console.WriteLine($"{ex} - ERROR UPDATE LANGUAGE");
             throw;
         }
     }
@@ -71,6 +72,7 @@ public class LanguagesService : ILanguagesService
         }
         catch (Exception ex)
         {
+            Console.WriteLine($"{ex} - ERROR DELETE LANGUAGE");
             throw;
         }
     }

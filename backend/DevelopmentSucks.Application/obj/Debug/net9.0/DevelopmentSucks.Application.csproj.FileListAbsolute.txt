@@ -10,3 +10,7 @@ C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\o
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\refint\DevelopmentSucks.Application.dll
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\DevelopmentSucks.Application.pdb
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\ref\DevelopmentSucks.Application.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\bin\Debug\net9.0\DevelopmentSucks.Domain.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\bin\Debug\net9.0\DevelopmentSucks.Domain.pdb
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\DevelopmentSucks.Application.csproj.AssemblyReference.cache
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Application\obj\Debug\net9.0\Developm.BE8045B7.Up2Date

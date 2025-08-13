@@ -1,6 +1,6 @@
-﻿using DevelopmentSucks.Domain.Entities;
+﻿using DevelopmentSucks.Application.DTO;
+using DevelopmentSucks.Domain.Entities;
 using DevelopmentSucks.Domain.Repositories;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevelopmentSucks.API.Controllers;
@@ -21,7 +21,7 @@ public class LanguagesController : ControllerBase
     {
         var languages = await _languagesRepository.GetAllLanguages();
 
-        return languages.Any() ? Ok(languages) : NotFound(new ErrorReponse
+        return languages.Any() ? Ok(languages) : NotFound(new ErrorResponse
         {
             StatusCode = 404,
             Message = "Курсы пустые"
@@ -54,6 +54,7 @@ public class LanguagesController : ControllerBase
             Title = dto.Title,
             Description = dto.Description,
             IconUrl = dto.IconUrl,
+            ProgressMax = dto.ProgressMax,
         };
 
         var createdLanguage = await _languagesRepository.CreateLanguage(language);
@@ -67,7 +68,7 @@ public class LanguagesController : ControllerBase
 
     [HttpPut]
     public async Task<ActionResult> UpdateLanguage([FromBody] LanguageDto dto) { 
-        if (dto.Id is null)
+        if (dto.Id == null)
         {
             return BadRequest("Id пустой");
         }
@@ -78,6 +79,7 @@ public class LanguagesController : ControllerBase
             Title = dto.Title,
             Description = dto.Description,
             IconUrl = dto.IconUrl,
+            ProgressMax = dto.ProgressMax,
         });
 
         return updatedLanguage ? NoContent() : NotFound(new ErrorResponse

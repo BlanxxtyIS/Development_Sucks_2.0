@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v9.0": {
       "DevelopmentSucks.Application/1.0.0": {
+        "dependencies": {
+          "DevelopmentSucks.Domain": "1.0.0"
+        },
         "runtime": {
           "DevelopmentSucks.Application.dll": {}
+        }
+      },
+      "DevelopmentSucks.Domain/1.0.0": {
+        "runtime": {
+          "DevelopmentSucks.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "DevelopmentSucks.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevelopmentSucks.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

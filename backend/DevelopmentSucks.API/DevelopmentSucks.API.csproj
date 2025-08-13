@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DevelopmentSucks.Infrastructure\DevelopmentSucks.Infrastructure.csproj" />
+    <ProjectReference Include="..\DevelopmentSucks.Application\DevelopmentSucks.Application.csproj" />
   </ItemGroup>
 
 </Project>

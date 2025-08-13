@@ -912,6 +912,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "DevelopmentSucks.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "DevelopmentSucks.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevelopmentSucks.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevelopmentSucks.Application.dll": {}
+        }
+      },
       "DevelopmentSucks.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -920,21 +933,6 @@
         },
         "runtime": {
           "bin/placeholder/DevelopmentSucks.Domain.dll": {}
-        }
-      },
-      "DevelopmentSucks.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "DevelopmentSucks.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "9.0.8",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"
-        },
-        "compile": {
-          "bin/placeholder/DevelopmentSucks.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DevelopmentSucks.Infrastructure.dll": {}
         }
       }
     }
@@ -2799,20 +2797,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "DevelopmentSucks.Application/1.0.0": {
+      "type": "project",
+      "path": "../DevelopmentSucks.Application/DevelopmentSucks.Application.csproj",
+      "msbuildProject": "../DevelopmentSucks.Application/DevelopmentSucks.Application.csproj"
+    },
     "DevelopmentSucks.Domain/1.0.0": {
       "type": "project",
       "path": "../DevelopmentSucks.Domain/DevelopmentSucks.Domain.csproj",
       "msbuildProject": "../DevelopmentSucks.Domain/DevelopmentSucks.Domain.csproj"
-    },
-    "DevelopmentSucks.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../DevelopmentSucks.Infrastructure/DevelopmentSucks.Infrastructure.csproj",
-      "msbuildProject": "../DevelopmentSucks.Infrastructure/DevelopmentSucks.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "DevelopmentSucks.Infrastructure >= 1.0.0",
+      "DevelopmentSucks.Application >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.8",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4"
@@ -2851,8 +2849,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\backend\\DevelopmentSucks.Infrastructure\\DevelopmentSucks.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\backend\\DevelopmentSucks.Infrastructure\\DevelopmentSucks.Infrastructure.csproj"
+            "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\backend\\DevelopmentSucks.Application\\DevelopmentSucks.Application.csproj": {
+              "projectPath": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\backend\\DevelopmentSucks.Application\\DevelopmentSucks.Application.csproj"
             }
           }
         }

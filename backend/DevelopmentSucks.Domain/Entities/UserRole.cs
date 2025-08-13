@@ -1,4 +1,4 @@
-﻿using DevelopmentSucks.Domain.Enums;
+﻿using DevelopmentSucks.Domain.Entities.Enums;
 
 namespace DevelopmentSucks.Domain.Entities;
 

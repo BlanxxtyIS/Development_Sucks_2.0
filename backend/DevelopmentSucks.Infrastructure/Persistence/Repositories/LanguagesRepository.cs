@@ -1,4 +1,5 @@
 ﻿using DevelopmentSucks.Domain.Entities;
+using DevelopmentSucks.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace DevelopmentSucks.Infrastructure.Persistence.Repositories;
@@ -11,8 +12,7 @@ public class LanguagesRepository : ILanguagesRepository
     {
         _context = context;
     }
-
-    public async Task<List<Language>> GetLanguages()
+    public async Task<List<Language>> GetAllLanguages()
     {
         var languages = await _context.Languages
             .AsNoTracking()
