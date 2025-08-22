@@ -1,0 +1,61 @@
+1. Структура:
+ - DevelopmentSucks2.0/
+   - apps/
+     - backend			# ASP.NET Core (Clean Architecture)
+     - ai			# AI‑модуль (Semantic Kernel или Python + FastAPI)
+     - web			# Next.js (React + TS) 
+   - deploy/
+     - compose			# docker-compose.*.yml
+     - k8s			# Kubernetes манифесты (на будущее)
+   - docks/			# ADR, схемы, спецификации
+   - scripts/			# dev-скрипты, миграции, генераторы
+   - .github/workflows		# CI/CD пайпланы
+
+2. Backend (Clean Architecture) - Каркас
+   * API
+   * Application
+   * Domain
+   * Infrastructure
+   * BackgroundWorker //Подписчик RabbitMQ + фоновые задачи, планировщик
+   * Tests.Unit
+   * Tests.Integration
+	* MediatR(CQRS + пайпланы), FluentValidation(валидация), EfCore.Npgsql(Postgres), Mapster/AutoMapper(Маппинг)
+	* Serilog + Seq(логи), OpenTelemetry(трейсинги, метрики)
+	* Swashbuckle/Scalar (swagger), AspNetCore.RateLimit
+	* JWT Bearer + крипто-утилиты
+
+3.Аутентификация и безопасность
+	собственная реализация JWT + Refresh, храним refresh-token в Redis, пароли в PasswordHasher
+	* POST/auth/register
+	* POST/auth/login
+	* POST/auth/refresh 
+	* POST/auth/logout (инвалидация refresh)
+	     Меры защиты:
+		- Хранить refresh‑токены вместе с deviceId ????
+		- RateLimiting по IP/user, CORS, Security Headers, HTTPS/HSTS
+		- Роли: Admin, Author, Student
+
+4. Тестирование:
+	- Unit-тесты для Application/Domain.
+	- Integration-тесты для Api/Infrastructure.
+	// Покрытие ≥ 60% для MVP
+
+5. Frontend Next.js + TypeScript
+	Админ Панель для CRUD операций Language -> Chapter -> Lesson.
+	Авторизация через httpsOnly cookie
+
+6. Безопасность 
+	HTTP headers (content‑security‑policy, x‑frame‑options, x‑content‑type‑options)
+	Rate limiting, input validation (FluentValidation + zod)
+	Сканирование зависимостей (Dependabot), CodeQL в CI
+	RBAC, аудиты действий (опц.)
+
+7. RabbitMQ
+
+8. CI/CD (GutHub Actions or GitLab)
+	docker, docker-compose, ci.yml - docker.yml - deploy.yml
+
+9. Документация
+
+10. Бэклог.
+	Платежи/Подписки, Геймификация(ачивки, XP), Комментарии и модерация
