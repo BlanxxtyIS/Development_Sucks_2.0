@@ -10,3 +10,15 @@ C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Domain\obj\De
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\refint\DevelopmentSucks.Domain.dll
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\DevelopmentSucks.Domain.pdb
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\ref\DevelopmentSucks.Domain.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\bin\Debug\net9.0\DevelopmentSucks.Domain.deps.json
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\bin\Debug\net9.0\DevelopmentSucks.Domain.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\bin\Debug\net9.0\DevelopmentSucks.Domain.pdb
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\DevelopmentSucks.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\DevelopmentSucks.Domain.AssemblyInfoInputs.cache
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\DevelopmentSucks.Domain.AssemblyInfo.cs
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\DevelopmentSucks.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\DevelopmentSucks.Domain.sourcelink.json
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\DevelopmentSucks.Domain.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\refint\DevelopmentSucks.Domain.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\DevelopmentSucks.Domain.pdb
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.Domain\obj\Debug\net9.0\ref\DevelopmentSucks.Domain.dll

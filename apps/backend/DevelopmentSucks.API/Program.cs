@@ -1,15 +1,20 @@
-//Входная точка приложения: Зависит от Application
+using DevelopmentSucks.Application;
 using DevelopmentSucks.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using DevelopmentSucks.Application.DTO.Users;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<RegisterUserRequestValidator>());
+
 
 var connString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(connString)
-);
+
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure(connString);
 
 var app = builder.Build();
 

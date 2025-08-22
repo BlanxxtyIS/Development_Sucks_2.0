@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uMJMXybxy7A=",
+  "dgSpecHash": "PluhKMl0J5I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\backend\\DevelopmentSucks.Application\\DevelopmentSucks.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\backend\\DevelopmentSucks.Application\\DevelopmentSucks.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zver\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
+    "C:\\Users\\Zver\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.8\\microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

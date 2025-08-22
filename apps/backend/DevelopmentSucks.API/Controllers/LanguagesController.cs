@@ -28,7 +28,7 @@ public class LanguagesController : ControllerBase
         });
     }
 
-    [HttpGet("{guid:id}")]
+    [HttpGet("{id:guid}")]
     public async Task<ActionResult<Language>> GetLanguageById(Guid id)
     {
         var language = await _languagesRepository.GetLanguage(id);
