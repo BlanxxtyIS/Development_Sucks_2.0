@@ -1,11 +1,12 @@
-﻿using DevelopmentSucks.Domain.Repositories;
-using DevelopmentSucks.Domain.Repositories.Auth;
-using DevelopmentSucks.Infrastructure.Persistence.Repositories;
+﻿using DevelopmentSucks.Domain.Repositories.Auth;
+using DevelopmentSucks.Domain.Repositories;
 using DevelopmentSucks.Infrastructure.Persistence.Repositories.Auth;
-using Microsoft.EntityFrameworkCore;
+using DevelopmentSucks.Infrastructure.Persistence.Repositories;
+using DevelopmentSucks.Infrastructure.Persistence;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
 
-namespace DevelopmentSucks.Infrastructure.Persistence;
+namespace DevelopmentSucks.Infrastructure;
 
 public static class DependencyInjection
 {
@@ -16,6 +17,7 @@ public static class DependencyInjection
         services.AddScoped<ILanguagesRepository, LanguagesRepository>();
         services.AddScoped<IChapterRepository, ChapterRepository>();
         services.AddScoped<ILessonRepository, LessonRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
 
         // DbContext
         services.AddDbContext<AppDbContext>(options =>

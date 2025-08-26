@@ -1,5 +1,4 @@
 ﻿using DevelopmentSucks.Application.DTO;
-using DevelopmentSucks.Application.DTO.Users;
 using DevelopmentSucks.Application.Services.Auth;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +16,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("register")]
-    public async Task<ActionResult<Guid>> Register([FromBody] RegisterUserRequest request)
+    public async Task<ActionResult<Guid>> Register([FromBody] UserDto request)
     {
         if (request == null)
         {

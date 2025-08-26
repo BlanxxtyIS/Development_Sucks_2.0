@@ -1,4 +1,4 @@
-﻿using DevelopmentSucks.Application.DTO.Users;
+﻿using DevelopmentSucks.Application.DTO;
 using DevelopmentSucks.Domain.Entities;
 using DevelopmentSucks.Domain.Repositories.Auth;
 
@@ -15,7 +15,7 @@ public class AuthService : IAuthService
         _hasher = passwordHasher;
     }
 
-    public async Task<(bool Success, string? Error, Guid? UserId)> RegisterAsync(RegisterUserRequest request)
+    public async Task<(bool Success, string? Error, Guid? UserId)> RegisterAsync(UserDto request)
     {
         var email = (request.Email ?? string.Empty);
         var username = (request.Username ?? string.Empty);

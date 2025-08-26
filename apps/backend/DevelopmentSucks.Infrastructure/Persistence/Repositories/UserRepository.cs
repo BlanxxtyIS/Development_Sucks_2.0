@@ -30,14 +30,6 @@ public class UserRepository : IUserRepository
         return user;
     }
 
-    public async Task<Guid> CreateUser(User user)
-    {
-        await _context.Users.AddAsync(user);
-        await _context.SaveChangesAsync();
-
-        return user.Id;
-    }
-
     public async Task<bool> UpdateUser(User user)
     {
         var updated = await _context.Users.FindAsync(user.Id);
@@ -47,12 +39,23 @@ public class UserRepository : IUserRepository
             return false;
         }
 
+        var emailExists = await _context.Users
+            .AnyAsync(u => u.Email == user.Email && u.Id != user.Id);
+
+        var usernameExists = await _context.Users
+            .AnyAsync(u => u.Username == user.Username && u.Id != user.Id);
+
+        if (emailExists || usernameExists)
+        {
+            throw new InvalidOperationException("Пользователь с таким email или username уже существует");
+        }
+
         updated.Email = user.Email;
         updated.Username = user.Username;
         updated.UserRoleId = user.UserRoleId;
 
         await _context.SaveChangesAsync();
-        return false;
+        return true;
     }
 
     public async Task<bool> DeleteUser(Guid id)

@@ -2,12 +2,13 @@
 
 namespace DevelopmentSucks.Application.DTO.Users;
 
-public class RegisterUserRequestValidator: AbstractValidator<RegisterUserRequest>
+public class UserDtoValidator: AbstractValidator<UserDto>
 {
-    public RegisterUserRequestValidator()
+    public UserDtoValidator()
     {
         RuleFor(x => x.Email)
-            .NotEmpty().EmailAddress();
+            .NotEmpty()
+            .EmailAddress();
 
         RuleFor(x => x.Username)
             .NotEmpty()

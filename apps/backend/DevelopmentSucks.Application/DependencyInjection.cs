@@ -12,6 +12,7 @@ public static class DependencyInjection
         services.AddScoped<ILanguagesService, LanguagesService>();
         services.AddScoped<IChaptersService, ChaptersService>();
         services.AddScoped<ILessonsService, LessonsService>();
+        services.AddScoped<IUsersService, UsersService>();
         return services;
     }
 }

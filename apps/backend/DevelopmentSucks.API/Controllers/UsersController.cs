@@ -1,8 +1,6 @@
 ﻿using DevelopmentSucks.Application.DTO;
-using DevelopmentSucks.Application.DTO.Users;
 using DevelopmentSucks.Application.Services;
 using DevelopmentSucks.Domain.Entities;
-using DevelopmentSucks.Domain.Repositories.Auth;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevelopmentSucks.API.Controllers;
@@ -12,12 +10,10 @@ namespace DevelopmentSucks.API.Controllers;
 public class UsersController : ControllerBase
 {
     private readonly IUsersService _service;
-    private readonly IPasswordHasher _hasher;
 
-    public UsersController(IUsersService service, IPasswordHasher hasher)
+    public UsersController(IUsersService service)
     {
         _service = service;
-        _hasher = hasher;
     }
 
     [HttpGet]
@@ -38,31 +34,43 @@ public class UsersController : ControllerBase
         });
     }
 
-    [HttpPost]
-    public async Task<ActionResult<Guid>> CreateUser([FromBody] RegisterUserRequest userDto)
+    [HttpPut]
+    public async Task<ActionResult> UpdatedUser([FromBody] UserDto userDto)
     {
-        if (userDto == null)
+        if (userDto.Id == null)
         {
             return BadRequest("Объект пустой");
         }
 
-        var user = new User
+        try
         {
-            Id = Guid.NewGuid(),
-            Email = userDto.Email,
-            Username = userDto.Username,
-            PasswordHash = _hasher.Hash(userDto.Password),
-            CreatedAt = DateTime.UtcNow,
-            UserRoleId = new Guid("a311bcfa-b6e7-4d93-93b1-0974253a031a")
-        };
+            var updated = await _service.UpdateUser(userDto);
+            return updated ? NoContent() : NotFound(new ErrorResponse
+            {
+                StatusCode = 404,
+                Message = "Ошибка при создании пользователя"
+            });
+        }
+        catch (Exception ex)
+        {
+            return Conflict(new ErrorResponse
+            {
+                StatusCode = 409,
+                Message = ex.Message
+            });
+        }
+    }
 
-        var createdUser = await _service.CreateUser(user);
+    [HttpDelete("{id:guid}")]
+    public async Task<ActionResult> DeleteUser(Guid id)
+    {
+        var deleted = await _service.DeleteUser(id);
 
-        return CreatedAtAction(
-            nameof(GetUserById),
-            new { id = createdUser },
-            createdUser
-        );
+        return deleted ? NoContent() : NotFound(new ErrorResponse
+        {
+            StatusCode = 404,
+            Message = "Ошибка при удалении курса"
+        });
     }
 }
 
