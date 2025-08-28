@@ -1,6 +1,7 @@
 ﻿using DevelopmentSucks.Application.DTO;
 using DevelopmentSucks.Application.Services;
 using DevelopmentSucks.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevelopmentSucks.API.Controllers;
@@ -17,6 +18,7 @@ public class UsersController : ControllerBase
     }
 
     [HttpGet]
+    [Authorize(Roles = "Student")]
     public async Task<ActionResult<List<User>>> GetAllUsers()
     {
         var users = await _service.GetAllUsers();

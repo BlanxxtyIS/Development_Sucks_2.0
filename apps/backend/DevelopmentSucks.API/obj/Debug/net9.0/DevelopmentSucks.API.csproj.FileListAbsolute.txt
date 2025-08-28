@@ -272,3 +272,11 @@ C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\bin\
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\obj\Debug\net9.0\DevelopmentSucks.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\backend\DevelopmentSucks.API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll

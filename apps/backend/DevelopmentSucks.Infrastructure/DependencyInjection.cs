@@ -18,6 +18,7 @@ public static class DependencyInjection
         services.AddScoped<IChapterRepository, ChapterRepository>();
         services.AddScoped<ILessonRepository, LessonRepository>();
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IJwtRepository, JwtRepository>();
 
         // DbContext
         services.AddDbContext<AppDbContext>(options =>

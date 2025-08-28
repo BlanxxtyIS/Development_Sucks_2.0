@@ -42,4 +42,26 @@ public class AuthController : ControllerBase
 
         //return Created($"/api/users/{userId}", new { id = userId });
     }
+
+    [HttpPost("login")]
+    public async Task<ActionResult> LoginUser([FromBody] UserDto dto)
+    {
+        if (dto == null)
+        {
+            return BadRequest(new ErrorResponse
+            {
+                StatusCode = 400,
+                Message = "Некорректный запрос"
+            });
+        }
+
+        var result = await _authService.LoginAsync(dto.Username, dto.Password);
+
+        if (!result.Success)
+        {
+            return Unauthorized(new { error = result.Error });
+        }
+
+        return Ok(new { token = result.Token });
+    }
 }

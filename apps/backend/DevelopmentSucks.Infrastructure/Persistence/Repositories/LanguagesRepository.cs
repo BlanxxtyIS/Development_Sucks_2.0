@@ -4,6 +4,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DevelopmentSucks.Infrastructure.Persistence.Repositories;
 
+/// <summary>
+/// Репозиторий для работы с сущностью Language
+/// Отвечает только за доступ к данным (CRUD) через Ef Core
+/// </summary>
 public class LanguagesRepository : ILanguagesRepository
 {
     private readonly AppDbContext _context;
@@ -12,6 +16,11 @@ public class LanguagesRepository : ILanguagesRepository
     {
         _context = context;
     }
+
+    /// <summary>
+    /// Получить список всех курсов (языков) | Read.
+    /// </summary>
+    /// <returns></returns>
     public async Task<List<Language>> GetAllLanguages()
     {
         var languages = await _context.Languages
@@ -21,6 +30,11 @@ public class LanguagesRepository : ILanguagesRepository
         return languages;
     }
 
+    /// <summary>
+    /// Получить курс (язык) по Id | Read.
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
     public async Task<Language?> GetLanguage(Guid id)
     {
         var language = await _context.Languages
@@ -29,6 +43,11 @@ public class LanguagesRepository : ILanguagesRepository
         return language;
     }
 
+    /// <summary>
+    /// Создать новый курс (язык) | Create.
+    /// </summary>
+    /// <param name="language"></param>
+    /// <returns></returns>
     public async Task<Guid> CreateLanguage(Language language)
     {
         await _context.Languages.AddAsync(language);
@@ -37,6 +56,11 @@ public class LanguagesRepository : ILanguagesRepository
         return language.Id;
     }
 
+    /// <summary>
+    /// Обновить существующий курс (язык) | Update.
+    /// </summary>
+    /// <param name="language"></param>
+    /// <returns></returns>
     public async Task<bool> UpdateLanguage(Language language)
     {
         var updated = await _context.Languages.FindAsync(language.Id);
@@ -54,6 +78,11 @@ public class LanguagesRepository : ILanguagesRepository
         return true;
     }
 
+    /// <summary>
+    /// Удалить курс (язык) по Id | Delete.
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
     public async Task<bool> DeleteLanguage(Guid id)
     {
         var deleted = await _context.Languages

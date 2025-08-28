@@ -8,11 +8,15 @@ public class AuthService : IAuthService
 {
     private readonly IAuthRepository _repository;
     private readonly IPasswordHasher _hasher;
+    private readonly IJwtRepository _jwtRepository;
 
-    public AuthService(IAuthRepository repository, IPasswordHasher passwordHasher)
+    public AuthService(IAuthRepository repository, 
+        IPasswordHasher passwordHasher,
+        IJwtRepository jwtRepository)
     {
         _repository = repository;
         _hasher = passwordHasher;
+        _jwtRepository = jwtRepository;
     }
 
     public async Task<(bool Success, string? Error, Guid? UserId)> RegisterAsync(UserDto request)
@@ -55,5 +59,21 @@ public class AuthService : IAuthService
 
             return (false, "Ошибка при сохранении пользователя. Попробуйте позже.", null);
         }
+    }
+
+    public async Task<(bool Success, string? Error, string? Token)> LoginAsync(string username, string password)
+    {
+        var user = await _repository.LoginAsync(username, password);
+
+        if (user == null)
+        {
+            return (false, "Неверный логин или пароль", null);
+        }
+
+        var roles = new List<string> { "Student" };
+
+        var token = _jwtRepository.GenerateToken(user.Id.ToString(), user.Username, roles);
+
+        return (true, null, token);
     }
 }

@@ -13,6 +13,9 @@ public static class DependencyInjection
         services.AddScoped<IChaptersService, ChaptersService>();
         services.AddScoped<ILessonsService, LessonsService>();
         services.AddScoped<IUsersService, UsersService>();
+        services.AddScoped<IAuthService, AuthService>();
+        services.AddScoped<IJwtService, JwtService>();
+
         return services;
     }
 }

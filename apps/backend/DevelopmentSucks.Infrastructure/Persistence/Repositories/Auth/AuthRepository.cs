@@ -7,10 +7,13 @@ namespace DevelopmentSucks.Infrastructure.Persistence.Repositories.Auth;
 public class AuthRepository : IAuthRepository
 {
     private readonly AppDbContext _context;
+    private readonly IPasswordHasher _hasher;
 
-    public AuthRepository(AppDbContext context)
+    public AuthRepository(AppDbContext context, 
+        IPasswordHasher hasher)
     {
         _context = context;
+        _hasher = hasher;
     }
 
     public Task<bool> EmailExistsAsync(string email)
@@ -28,5 +31,18 @@ public class AuthRepository : IAuthRepository
         await _context.Users.AddAsync(user);
         await _context.SaveChangesAsync();
         return user.Id;
+    }
+
+    public async Task<User?> LoginAsync(string username, string password)
+    {
+        var user = await _context.Users
+            .FirstOrDefaultAsync(u => u.Username == username);
+
+        if (user == null)
+        {
+            return null;
+        }
+
+        return _hasher.Verify(user.PasswordHash, password) ? user : null;
     }
 }
