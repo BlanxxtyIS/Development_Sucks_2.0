@@ -40,7 +40,7 @@
 	- Integration-тесты для Api/Infrastructure.
 	// Покрытие ≥ 60% для MVP
 
-5. Frontend Next.js + TypeScript
+5. Frontend React + TypeScript
 	Админ Панель для CRUD операций Language -> Chapter -> Lesson.
 	Авторизация через httpsOnly cookie
 

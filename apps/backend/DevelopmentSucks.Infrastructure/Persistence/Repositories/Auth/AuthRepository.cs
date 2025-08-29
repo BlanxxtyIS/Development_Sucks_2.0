@@ -26,6 +26,7 @@ public class AuthRepository : IAuthRepository
         return _context.Users.AnyAsync(u => u.Username == username);
     }
 
+
     public async Task<Guid> CreateAsync(User user)
     {
         await _context.Users.AddAsync(user);
