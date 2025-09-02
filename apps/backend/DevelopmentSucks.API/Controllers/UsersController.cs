@@ -18,7 +18,6 @@ public class UsersController : ControllerBase
     }
 
     [HttpGet]
-    [Authorize(Roles = "Student")]
     public async Task<ActionResult<List<User>>> GetAllUsers()
     {
         var users = await _service.GetAllUsers();

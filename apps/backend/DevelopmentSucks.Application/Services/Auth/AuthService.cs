@@ -23,7 +23,7 @@ public class AuthService : IAuthService
     {
         var email = (request.Email ?? string.Empty);
         var username = (request.Username ?? string.Empty);
-        var password = request.Password ?? string.Empty;
+        var password = (request.Password ?? string.Empty);
 
         var emailRequest = await _repository.EmailExistsAsync(email);
         if (emailRequest)
