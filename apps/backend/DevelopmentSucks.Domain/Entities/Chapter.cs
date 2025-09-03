@@ -8,5 +8,5 @@ public class Chapter
     public string Description { get; set; } = string.Empty;
     public string IconUrl { get; set; } = string.Empty;
     public int Order { get; set; }
-    public List<Lesson> Lessons { get; set; } = new();
+    public List<Lesson>? Lessons { get; set; } = new();
 }

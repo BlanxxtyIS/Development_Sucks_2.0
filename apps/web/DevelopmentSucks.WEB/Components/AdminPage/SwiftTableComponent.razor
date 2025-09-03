@@ -1,0 +1,120 @@
+﻿@using System.Net.Http.Json
+@inject HttpClient Http
+
+@if (_loading)
+{
+    <p>@errorText</p>
+}
+else
+{
+    <MudTable Items="@_languages.Take(4)" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+        <HeaderContent>
+            <MudTh>Id</MudTh>
+            <MudTh>Title</MudTh>
+            <MudTh>Description</MudTh>
+            <MudTh>IconUrl</MudTh>
+            <MudTh>ProgressMax</MudTh>
+            <MudTh>Chapters</MudTh>
+            <MudTh><MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Secondary" aria-label="add to favorite" /></MudTh>
+        </HeaderContent>
+
+        <RowTemplate>
+            <MudTd DataLabel="Id">@context.Id</MudTd>
+            <MudTd DataLabel="Email">@context.Title</MudTd>
+            <MudTd DataLabel="Username">@context.Description</MudTd>
+            <MudTd DataLabel="Username">@context.IconUrl</MudTd>
+            <MudTd DataLabel="Username">@context.ProgressMax</MudTd>
+            <MudTd DataLabel="Username">@context.Chapters</MudTd>
+
+            <MudButton Variant="Variant.Filled" Color="Color.Primary">Редактировать</MudButton>
+            <MudIconButton Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Primary" Size="Size.Small" />
+        </RowTemplate>
+    </MudTable>
+
+    <br />
+    <br />
+
+    <MudTable Items="@_chapters.Take(4)" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+        <HeaderContent>
+            <MudTh>Id</MudTh>
+            <MudTh>Language Id</MudTh>
+            <MudTh>Title</MudTh>
+            <MudTh>Description</MudTh>
+            <MudTh>IconUrl</MudTh>
+            <MudTh>Order</MudTh>
+            <MudTh>Lessons</MudTh>
+            <MudTh><MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Secondary" aria-label="add to favorite" /></MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="Id">@context.Id</MudTd>
+            <MudTd DataLabel="Email">@context.LanguageId</MudTd>
+            <MudTd DataLabel="Username">@context.Title</MudTd>
+            <MudTd DataLabel="Username">@context.Description</MudTd>
+            <MudTd DataLabel="Username">@context.IconUrl</MudTd>
+            <MudTd DataLabel="Username">@context.Order</MudTd>
+            <MudTd DataLabel="Username">@context.Lessons</MudTd>
+
+            <MudButton Variant="Variant.Filled" Color="Color.Primary">Редактировать</MudButton>
+            <MudIconButton Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Primary" Size="Size.Small" />
+        </RowTemplate>
+    </MudTable>
+
+    <br />
+    <br />
+
+    <MudTable Items="@_lessons.Take(4)" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+        <HeaderContent>
+            <MudTh>Id</MudTh>
+            <MudTh>Chapter Id</MudTh>
+            <MudTh>Title</MudTh>
+            <MudTh>Content</MudTh>
+            <MudTh>Order</MudTh>
+            <MudTh><MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Secondary" aria-label="add to favorite" /></MudTh>
+        </HeaderContent>
+
+        <RowTemplate>
+            <MudTd DataLabel="Id">@context.Id</MudTd>
+            <MudTd DataLabel="Email">@context.ChapterId</MudTd>
+            <MudTd DataLabel="Username">@context.Title</MudTd>
+            <MudTd DataLabel="Username">@context.Content</MudTd>
+            <MudTd DataLabel="Username">@context.Order</MudTd>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary">Редактировать</MudButton>
+            <MudIconButton Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Primary" Size="Size.Small" />
+        </RowTemplate>
+    </MudTable>
+}
+
+@code {
+    private bool _loading = true;
+    private string errorText = "Загрузка глав...";
+
+    private IList<LanguageDto>? _languages;
+    private IList<ChapterDto>? _chapters;
+    private IList<LessonDto>? _lessons;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var languages = await Http.GetFromJsonAsync<List<LanguageDto>>("api/languages");
+            var chapters = await Http.GetFromJsonAsync<List<ChapterDto>>("api/chapters");
+            var lessons = await Http.GetFromJsonAsync<List<LessonDto>>("api/lessons");
+
+            if (languages != null && chapters != null && lessons != null)
+            {
+                _languages = languages.ToList();
+                _chapters = chapters.ToList();
+                _lessons = lessons.ToList();
+            }
+            else
+            {
+                errorText = "Список глав пуст";
+            }
+            _loading = false;
+        }
+        catch (Exception ex)
+        {
+            errorText = $"Ошибка: {ex.Message}";
+        }
+    }
+}

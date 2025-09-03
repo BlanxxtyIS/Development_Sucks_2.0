@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace DevelopmentSucks.API.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class LanguagesController : ControllerBase
 {
     private readonly ILanguagesRepository _languagesRepository;
