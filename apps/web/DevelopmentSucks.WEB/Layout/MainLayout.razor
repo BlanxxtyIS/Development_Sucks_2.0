@@ -1,0 +1,43 @@
+﻿@inherits LayoutComponentBase
+
+@* Required *@
+<MudThemeProvider />
+<MudPopoverProvider />
+
+@* Needed for dialogs *@
+<MudDialogProvider />
+
+@* Needed for snackbars *@
+<MudSnackbarProvider />
+
+<div class="page">
+    @if (_showNavMenu)
+    {
+        <div class="sidebar">
+            <NavMenu />
+        </div>
+    }
+
+    <main>
+        <MudAppBar Color="Color.Primary" Fixed="false">
+            <MudIconButton OnClick="ToggleNavMenu" Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" />
+            <MudSpacer />
+            <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" />
+        </MudAppBar>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    private bool _showNavMenu = false;
+
+    private void ToggleNavMenu()
+    {
+        Console.WriteLine("HHHHH");
+        _showNavMenu = !_showNavMenu;
+        StateHasChanged();
+    }
+}

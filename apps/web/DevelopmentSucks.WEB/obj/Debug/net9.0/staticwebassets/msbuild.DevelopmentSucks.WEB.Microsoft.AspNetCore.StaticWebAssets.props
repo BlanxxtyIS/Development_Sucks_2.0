@@ -1,46 +1,46 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))">
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
-      <RelativePath>app.css</RelativePath>
+      <BasePath>/</BasePath>
+      <RelativePath>css/app.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>khy4lop6wu</Fingerprint>
-      <Integrity>aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=</Integrity>
+      <Fingerprint>8rbvw3on5j</Fingerprint>
+      <Integrity>vGbjgqEqv4y3q5OB8W2R9LthkuF8mQfHFeNdKSReSmU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DevelopmentSucks.WEB.5bxxlgv7y2.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DevelopmentSucks.WEB.styles.css'))">
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
-      <RelativePath>DevelopmentSucks.WEB.5bxxlgv7y2.bundle.scp.css</RelativePath>
+      <BasePath>/</BasePath>
+      <RelativePath>DevelopmentSucks.WEB.styles.css</RelativePath>
       <AssetKind>All</AssetKind>
-      <AssetMode>Reference</AssetMode>
+      <AssetMode>CurrentProject</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
-      <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>5bxxlgv7y2</Fingerprint>
-      <Integrity>H7SiDld+D1/Y/Vflz9m0aKrezy8Pz2n+S4H52ewOfp0=</Integrity>
+      <AssetTraitValue>ApplicationBundle</AssetTraitValue>
+      <Fingerprint>g76dkyakt9</Fingerprint>
+      <Integrity>VKOHNoxI60Pf1ueAuutI8egZuIIIwyulC3kzp1a4FCM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DevelopmentSucks.WEB.5bxxlgv7y2.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DevelopmentSucks.WEB.styles.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>favicon.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -54,11 +54,47 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icon-192.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DevelopmentSucks.WEB</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>icon-192.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9uvjujlxy</Fingerprint>
+      <Integrity>DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icon-192.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DevelopmentSucks.WEB</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>index.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j5rlbpsm5j</Fingerprint>
+      <Integrity>t6ujmIxyFHVIhgfmTwqBLxqH6OV21Z4B+MGCxclflBs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))">
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -76,7 +112,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-grid.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -94,7 +130,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-grid.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -112,7 +148,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-grid.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -130,7 +166,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-grid.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -148,7 +184,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-grid.rtl.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -166,7 +202,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -184,7 +220,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -202,7 +238,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -220,7 +256,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-reboot.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -238,7 +274,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-reboot.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -256,7 +292,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-reboot.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -274,7 +310,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-reboot.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -292,7 +328,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-reboot.rtl.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -310,7 +346,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -328,7 +364,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -346,7 +382,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -364,7 +400,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-utilities.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -382,7 +418,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-utilities.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -400,7 +436,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-utilities.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -418,7 +454,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-utilities.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -436,7 +472,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-utilities.rtl.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -454,7 +490,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -472,7 +508,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -490,7 +526,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -508,7 +544,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -526,7 +562,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -544,7 +580,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -562,7 +598,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap.rtl.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -580,7 +616,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap.rtl.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -598,7 +634,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap.rtl.min.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -616,7 +652,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/css/bootstrap.rtl.min.css.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -634,7 +670,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -642,8 +678,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>notf2xhcfb</Fingerprint>
-      <Integrity>+UW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac=</Integrity>
+      <Fingerprint>via6zpfc1m</Fingerprint>
+      <Integrity>OY76pW9oCx/y7vzwpgeWLbreXEzO8GlVBYZH82R0lfU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.js'))</OriginalItemSpec>
@@ -652,7 +688,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.bundle.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -660,8 +696,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6cfz1n2cew</Fingerprint>
-      <Integrity>mkoRoV24jV+rCPWcHDR5awPx8VuzzJKN0ibhxZ9/WaM=</Integrity>
+      <Fingerprint>n25kga64mj</Fingerprint>
+      <Integrity>ry6YAE87mUovZgtK0hBmndj6fhuoENxr/I7d57kssLw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js'))</OriginalItemSpec>
@@ -670,7 +706,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.bundle.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -678,8 +714,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6pdc2jztkx</Fingerprint>
-      <Integrity>Wq4aWW1rQdJ+6oAgy1JQc9IBjHL9T3MKfXTBNqOv02c=</Integrity>
+      <Fingerprint>fjv1unypbm</Fingerprint>
+      <Integrity>608OGG0/e89blqHGp7LM8qAe2x2fhnp9JPwHZRXB3Fw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js.map'))</OriginalItemSpec>
@@ -688,7 +724,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.bundle.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -706,7 +742,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.bundle.min.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -714,8 +750,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>iovd86k7lj</Fingerprint>
-      <Integrity>Xj4HYxZBQ7qqHKBwa2EAugRS+RHWzpcTtI49vgezUSU=</Integrity>
+      <Fingerprint>zo6wu4c7fs</Fingerprint>
+      <Integrity>HSh21dic4s7ZoqC4Q2yKQ1jYpNtmBNUZC3LuOXBcX60=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'))</OriginalItemSpec>
@@ -724,7 +760,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.esm.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -732,8 +768,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vr1egmr9el</Fingerprint>
-      <Integrity>exiXZNJDwucXfuje3CbXPbuS6+Ery3z9sP+pgmvh8nA=</Integrity>
+      <Fingerprint>bb3lfq7hhg</Fingerprint>
+      <Integrity>B8vAl0nAEJ0usTr16kwizaCaMasRiObtFbEPY3KtZWM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js'))</OriginalItemSpec>
@@ -742,7 +778,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.esm.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -750,8 +786,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kbrnm935zg</Fingerprint>
-      <Integrity>EPRLgpqWkahLxEn6CUjdM76RIYIw1xdHwTbeHssuj/4=</Integrity>
+      <Fingerprint>9s66nvtbtt</Fingerprint>
+      <Integrity>2Uredu4v+SZCFvW3DT7DbUqXMQt/tXyHfq5JImBy+gI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js.map'))</OriginalItemSpec>
@@ -760,7 +796,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.esm.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -778,7 +814,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.esm.min.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -786,8 +822,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>y7v9cxd14o</Fingerprint>
-      <Integrity>Tsbv8z6VlNgVET8xvz/yLo/v5iJHTAj2J4hkhjP1rHM=</Integrity>
+      <Fingerprint>dr2y3ypszt</Fingerprint>
+      <Integrity>h4JyI7pWCx7p7dd4fT5TSd6K5aFF3NM86T/IrD0w1TA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.min.js.map'))</OriginalItemSpec>
@@ -796,7 +832,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -804,8 +840,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h1s4sie4z3</Fingerprint>
-      <Integrity>9Wr7Hxe8gCJDoIHh5xP29ldXvC3kN2GkifQj9c8vYx4=</Integrity>
+      <Fingerprint>izt73vzjhe</Fingerprint>
+      <Integrity>jkJzSutKM60zGD5NDf9oIaj+R7CoTxdnIz5nbjUbJlo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.js.map'))</OriginalItemSpec>
@@ -814,7 +850,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.min.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -832,7 +868,7 @@
       <SourceType>Package</SourceType>
       <SourceId>DevelopmentSucks.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DevelopmentSucks.WEB</BasePath>
+      <BasePath>/</BasePath>
       <RelativePath>lib/bootstrap/dist/js/bootstrap.min.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -840,11 +876,47 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0j3bgjxly4</Fingerprint>
-      <Integrity>ZI01e/ns473GKvACG4McggJdxvFfFIw4xspwQiG8Ye4=</Integrity>
+      <Fingerprint>7zxxw2drh9</Fingerprint>
+      <Integrity>QyKbdKb0tWNDJo17LVCpqV2nbGnIAXZP1yuGwO1KyGI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js.map'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sample-data\weather.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DevelopmentSucks.WEB</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>sample-data/weather.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iag0ou56lh</Fingerprint>
+      <Integrity>enKgCMkYmCpfEcmg6Annbmc40VZ/A6aYYSQjZfVn2cU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sample-data\weather.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\_framework\blazor.webassembly.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DevelopmentSucks.WEB</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>_framework/blazor.webassembly.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName>WasmResource</AssetTraitName>
+      <AssetTraitValue>boot</AssetTraitValue>
+      <Fingerprint>yiodnjoszm</Fingerprint>
+      <Integrity>lh8bY3DINgTiqGL/cwOeVaJGdfE2ex1o8MzwCbmlZZE=</Integrity>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\_framework\blazor.webassembly.js'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -14,6 +14,16 @@ builder.Services.Configure<JwtSettings>(
 builder.Services.AddControllers()
     .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<UserDtoValidator>());
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 
 var connString = builder.Configuration.GetConnectionString("DefaultConnection");
 
@@ -23,6 +33,8 @@ builder.Services.AddInfrastructure(connString);
 builder.Services.ConfigureJWT(builder.Configuration);
 
 var app = builder.Build();
+
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 
