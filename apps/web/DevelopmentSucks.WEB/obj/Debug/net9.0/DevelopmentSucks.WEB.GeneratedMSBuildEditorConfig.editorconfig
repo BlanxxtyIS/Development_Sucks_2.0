@@ -31,12 +31,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zver/Desktop/DevelopmentSucks2.0/apps/web/DevelopmentSucks.WEB/Components/AdminPage/SwiftTableComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZG1pblBhZ2VcU3dpZnRUYWJsZUNvbXBvbmVudC5yYXpvcg==
+[C:/Users/Zver/Desktop/DevelopmentSucks2.0/apps/web/DevelopmentSucks.WEB/Components/AdminPage/SwiftPage/EditComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZG1pblBhZ2VcU3dpZnRQYWdlXEVkaXRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zver/Desktop/DevelopmentSucks2.0/apps/web/DevelopmentSucks.WEB/Components/AdminPage/SwiftPage/SwiftTableComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZG1pblBhZ2VcU3dpZnRQYWdlXFN3aWZ0VGFibGVDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zver/Desktop/DevelopmentSucks2.0/apps/web/DevelopmentSucks.WEB/Components/AdminPage/UserTableComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZG1pblBhZ2VcVXNlclRhYmxlQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zver/Desktop/DevelopmentSucks2.0/apps/web/DevelopmentSucks.WEB/Components/HomePage/Dialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lUGFnZVxEaWFsb2cucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zver/Desktop/DevelopmentSucks2.0/apps/web/DevelopmentSucks.WEB/Components/HomePage/LanguageCard.razor]

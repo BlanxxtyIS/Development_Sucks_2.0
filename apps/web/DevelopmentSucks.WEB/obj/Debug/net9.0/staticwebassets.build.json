@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jdgsSz8FWPLkXC3w7eI9rh964ct9DA288CurKKe2F9g=",
+  "Hash": "sB/ISstD1N4wPJe3uG+W0oZArn8d84RGU7vg+UX8Z40=",
   "Source": "DevelopmentSucks.WEB",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "qn1xpu1pb4",
-      "Integrity": "psf1r/QekA1zZ1KumydcsM6vepyWVqqo96sSWlP2STY=",
+      "Fingerprint": "vg948t9xl4",
+      "Integrity": "EYuImPjWUnmj8m+CYlqnjku/u1ndeYvrikM0/2e9gQg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "dkcou7ftip",
-      "Integrity": "YyCurx0/eOPak+2l6JG9jwxZFbDhr8WTSyEee6t1LwY=",
+      "Fingerprint": "na8vdzcpqk",
+      "Integrity": "QSvFwnzADBbUAnbMfMF2DcOsdYZ+yXJHhns/piyr4DY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\DevelopmentSucks.WEB.pdb"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "huqnzmqsqk",
-      "Integrity": "qaL8lSmaijUYVXhV7Yf2rsRe2OLS67Nt6oAyf8e+bbw=",
+      "Fingerprint": "8647r9xpj0",
+      "Integrity": "4B/RHzTOh7Esh3SG6RRI3EdekfKmLdgzz5L5xq/5Jqc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\webcil\\DevelopmentSucks.WEB.wasm"
@@ -267,6 +267,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.0\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FluentValidation.wasm",
+      "SourceId": "DevelopmentSucks.WEB",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/FluentValidation#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "b28mz0qrx7",
+      "Integrity": "UzXm5ONFC2YfuSahJleOJiIJNURatHcRQIkXq2hoPew=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\webcil\\FluentValidation.wasm"
     },
     {
       "Identity": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\icudt_CJK.dat",
@@ -4889,7 +4910,7 @@
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
-      "Identity": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\49k8foyjjn-qn1xpu1pb4.gz",
+      "Identity": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\49k8foyjjn-vg948t9xl4.gz",
       "SourceId": "DevelopmentSucks.WEB",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\",
@@ -4903,8 +4924,8 @@
       "RelatedAsset": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "f0z34jqb7a",
-      "Integrity": "ARxJIl/nBUuAIj3jaLzM41GBxPuZU9RzGKc1o1Zfg7I=",
+      "Fingerprint": "yen1zwqyxd",
+      "Integrity": "NjBoRZymCLSLT3fdAUCZDE4z43I9aA1x+wC/7edlGXQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7409,12 +7430,12 @@
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Resources.Writer.wasm"
     },
     {
-      "Identity": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\kv1uil6w29-dkcou7ftip.gz",
+      "Identity": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\kv1uil6w29-na8vdzcpqk.gz",
       "SourceId": "DevelopmentSucks.WEB",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/DevelopmentSucks.WEB#[.{fingerprint=dkcou7ftip}]!.pdb.gz",
+      "RelativePath": "_framework/DevelopmentSucks.WEB#[.{fingerprint=na8vdzcpqk}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7423,8 +7444,8 @@
       "RelatedAsset": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DevelopmentSucks.WEB.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2lzgmmuwyc",
-      "Integrity": "2hmIMjOdtPe6II4ZLhotXPcD+nPH3Xdm9iA5tceLNWc=",
+      "Fingerprint": "focg4pr092",
+      "Integrity": "0SOcAy9rZJexsdEWTzmViN5ZSlfCDtcfrpPMZ0oJvOk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DevelopmentSucks.WEB.pdb"
@@ -8585,12 +8606,12 @@
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Security.AccessControl.wasm"
     },
     {
-      "Identity": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\s98ewqs8dd-huqnzmqsqk.gz",
+      "Identity": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\s98ewqs8dd-8647r9xpj0.gz",
       "SourceId": "DevelopmentSucks.WEB",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/DevelopmentSucks.WEB#[.{fingerprint=huqnzmqsqk}]!.wasm.gz",
+      "RelativePath": "_framework/DevelopmentSucks.WEB#[.{fingerprint=8647r9xpj0}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8599,8 +8620,8 @@
       "RelatedAsset": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DevelopmentSucks.WEB.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rhgggv40kr",
-      "Integrity": "f+O7XNKjf+pneYS2kW1AM+DwimX+57BmXLKwO7CQP9s=",
+      "Fingerprint": "zsbycn0mmu",
+      "Integrity": "QzhYkYdfOgJA+90C79FDFVRvdllWpRKWHdAYO6oXkrU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DevelopmentSucks.WEB.wasm"
@@ -8667,6 +8688,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\sed1fepvm5-b28mz0qrx7.gz",
+      "SourceId": "DevelopmentSucks.WEB",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/FluentValidation#[.{fingerprint=b28mz0qrx7}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FluentValidation.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "upq0rcmjrg",
+      "Integrity": "vq22Wa0KNRaZ4IgeY77Dph3aAJewzn4NP7dwzctOuK0=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FluentValidation.wasm"
     },
     {
       "Identity": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\sekcmgwjru-c2jlpeoesf.gz",
@@ -11250,7 +11292,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39864"
+          "Value": "40030"
         },
         {
           "Name": "Content-Type",
@@ -11258,11 +11300,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"psf1r/QekA1zZ1KumydcsM6vepyWVqqo96sSWlP2STY=\""
+          "Value": "\"EYuImPjWUnmj8m+CYlqnjku/u1ndeYvrikM0/2e9gQg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:18 GMT"
+          "Value": "Thu, 04 Sep 2025 13:23:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11272,18 +11314,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-psf1r/QekA1zZ1KumydcsM6vepyWVqqo96sSWlP2STY="
+          "Value": "sha256-EYuImPjWUnmj8m+CYlqnjku/u1ndeYvrikM0/2e9gQg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\49k8foyjjn-qn1xpu1pb4.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\49k8foyjjn-vg948t9xl4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000079789356"
+          "Quality": "0.000079377679"
         }
       ],
       "ResponseHeaders": [
@@ -11293,15 +11335,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12532"
+          "Value": "12597"
         },
         {
           "Name": "ETag",
-          "Value": "\"ARxJIl/nBUuAIj3jaLzM41GBxPuZU9RzGKc1o1Zfg7I=\""
+          "Value": "\"NjBoRZymCLSLT3fdAUCZDE4z43I9aA1x+wC/7edlGXQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:11:40 GMT"
+          "Value": "Thu, 04 Sep 2025 13:21:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11321,19 +11363,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"psf1r/QekA1zZ1KumydcsM6vepyWVqqo96sSWlP2STY=\""
+          "Value": "W/\"EYuImPjWUnmj8m+CYlqnjku/u1ndeYvrikM0/2e9gQg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-psf1r/QekA1zZ1KumydcsM6vepyWVqqo96sSWlP2STY="
+          "Value": "sha256-EYuImPjWUnmj8m+CYlqnjku/u1ndeYvrikM0/2e9gQg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\49k8foyjjn-qn1xpu1pb4.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\49k8foyjjn-vg948t9xl4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11342,7 +11384,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12532"
+          "Value": "12597"
         },
         {
           "Name": "Content-Type",
@@ -11350,11 +11392,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ARxJIl/nBUuAIj3jaLzM41GBxPuZU9RzGKc1o1Zfg7I=\""
+          "Value": "\"NjBoRZymCLSLT3fdAUCZDE4z43I9aA1x+wC/7edlGXQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:11:40 GMT"
+          "Value": "Thu, 04 Sep 2025 13:21:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11372,7 +11414,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ARxJIl/nBUuAIj3jaLzM41GBxPuZU9RzGKc1o1Zfg7I="
+          "Value": "sha256-NjBoRZymCLSLT3fdAUCZDE4z43I9aA1x+wC/7edlGXQ="
         }
       ]
     },
@@ -11514,168 +11556,7 @@
       ]
     },
     {
-      "Route": "_framework/DevelopmentSucks.WEB.dkcou7ftip.pdb",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DevelopmentSucks.WEB.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "42636"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YyCurx0/eOPak+2l6JG9jwxZFbDhr8WTSyEee6t1LwY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dkcou7ftip"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/DevelopmentSucks.WEB.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YyCurx0/eOPak+2l6JG9jwxZFbDhr8WTSyEee6t1LwY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DevelopmentSucks.WEB.dkcou7ftip.pdb",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\kv1uil6w29-dkcou7ftip.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000029944602"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33394"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2hmIMjOdtPe6II4ZLhotXPcD+nPH3Xdm9iA5tceLNWc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"YyCurx0/eOPak+2l6JG9jwxZFbDhr8WTSyEee6t1LwY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dkcou7ftip"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/DevelopmentSucks.WEB.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YyCurx0/eOPak+2l6JG9jwxZFbDhr8WTSyEee6t1LwY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DevelopmentSucks.WEB.dkcou7ftip.pdb.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\kv1uil6w29-dkcou7ftip.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33394"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2hmIMjOdtPe6II4ZLhotXPcD+nPH3Xdm9iA5tceLNWc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dkcou7ftip"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/DevelopmentSucks.WEB.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2hmIMjOdtPe6II4ZLhotXPcD+nPH3Xdm9iA5tceLNWc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DevelopmentSucks.WEB.huqnzmqsqk.wasm",
+      "Route": "_framework/DevelopmentSucks.WEB.8647r9xpj0.wasm",
       "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DevelopmentSucks.WEB.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11685,7 +11566,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "62229"
+          "Value": "67349"
         },
         {
           "Name": "Content-Type",
@@ -11693,11 +11574,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qaL8lSmaijUYVXhV7Yf2rsRe2OLS67Nt6oAyf8e+bbw=\""
+          "Value": "\"4B/RHzTOh7Esh3SG6RRI3EdekfKmLdgzz5L5xq/5Jqc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:17 GMT"
+          "Value": "Thu, 04 Sep 2025 13:23:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11707,7 +11588,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "huqnzmqsqk"
+          "Value": "8647r9xpj0"
         },
         {
           "Name": "label",
@@ -11715,18 +11596,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qaL8lSmaijUYVXhV7Yf2rsRe2OLS67Nt6oAyf8e+bbw="
+          "Value": "sha256-4B/RHzTOh7Esh3SG6RRI3EdekfKmLdgzz5L5xq/5Jqc="
         }
       ]
     },
     {
-      "Route": "_framework/DevelopmentSucks.WEB.huqnzmqsqk.wasm",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\s98ewqs8dd-huqnzmqsqk.gz",
+      "Route": "_framework/DevelopmentSucks.WEB.8647r9xpj0.wasm",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\s98ewqs8dd-8647r9xpj0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000049055678"
+          "Quality": "0.000044565266"
         }
       ],
       "ResponseHeaders": [
@@ -11736,15 +11617,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20384"
+          "Value": "22438"
         },
         {
           "Name": "ETag",
-          "Value": "\"f+O7XNKjf+pneYS2kW1AM+DwimX+57BmXLKwO7CQP9s=\""
+          "Value": "\"QzhYkYdfOgJA+90C79FDFVRvdllWpRKWHdAYO6oXkrU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:18 GMT"
+          "Value": "Thu, 04 Sep 2025 13:23:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11764,13 +11645,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qaL8lSmaijUYVXhV7Yf2rsRe2OLS67Nt6oAyf8e+bbw=\""
+          "Value": "W/\"4B/RHzTOh7Esh3SG6RRI3EdekfKmLdgzz5L5xq/5Jqc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "huqnzmqsqk"
+          "Value": "8647r9xpj0"
         },
         {
           "Name": "label",
@@ -11778,13 +11659,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qaL8lSmaijUYVXhV7Yf2rsRe2OLS67Nt6oAyf8e+bbw="
+          "Value": "sha256-4B/RHzTOh7Esh3SG6RRI3EdekfKmLdgzz5L5xq/5Jqc="
         }
       ]
     },
     {
-      "Route": "_framework/DevelopmentSucks.WEB.huqnzmqsqk.wasm.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\s98ewqs8dd-huqnzmqsqk.gz",
+      "Route": "_framework/DevelopmentSucks.WEB.8647r9xpj0.wasm.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\s98ewqs8dd-8647r9xpj0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11793,7 +11674,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20384"
+          "Value": "22438"
         },
         {
           "Name": "Content-Type",
@@ -11801,11 +11682,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"f+O7XNKjf+pneYS2kW1AM+DwimX+57BmXLKwO7CQP9s=\""
+          "Value": "\"QzhYkYdfOgJA+90C79FDFVRvdllWpRKWHdAYO6oXkrU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:18 GMT"
+          "Value": "Thu, 04 Sep 2025 13:23:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11823,7 +11704,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "huqnzmqsqk"
+          "Value": "8647r9xpj0"
         },
         {
           "Name": "label",
@@ -11831,7 +11712,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-f+O7XNKjf+pneYS2kW1AM+DwimX+57BmXLKwO7CQP9s="
+          "Value": "sha256-QzhYkYdfOgJA+90C79FDFVRvdllWpRKWHdAYO6oXkrU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DevelopmentSucks.WEB.na8vdzcpqk.pdb",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DevelopmentSucks.WEB.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QSvFwnzADBbUAnbMfMF2DcOsdYZ+yXJHhns/piyr4DY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:23:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "na8vdzcpqk"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/DevelopmentSucks.WEB.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QSvFwnzADBbUAnbMfMF2DcOsdYZ+yXJHhns/piyr4DY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DevelopmentSucks.WEB.na8vdzcpqk.pdb",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\kv1uil6w29-na8vdzcpqk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000026219192"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38139"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0SOcAy9rZJexsdEWTzmViN5ZSlfCDtcfrpPMZ0oJvOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:23:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QSvFwnzADBbUAnbMfMF2DcOsdYZ+yXJHhns/piyr4DY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "na8vdzcpqk"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/DevelopmentSucks.WEB.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QSvFwnzADBbUAnbMfMF2DcOsdYZ+yXJHhns/piyr4DY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DevelopmentSucks.WEB.na8vdzcpqk.pdb.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\kv1uil6w29-na8vdzcpqk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0SOcAy9rZJexsdEWTzmViN5ZSlfCDtcfrpPMZ0oJvOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:23:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "na8vdzcpqk"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/DevelopmentSucks.WEB.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0SOcAy9rZJexsdEWTzmViN5ZSlfCDtcfrpPMZ0oJvOk="
         }
       ]
     },
@@ -11846,7 +11888,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "42636"
+          "Value": "48024"
         },
         {
           "Name": "Content-Type",
@@ -11854,11 +11896,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YyCurx0/eOPak+2l6JG9jwxZFbDhr8WTSyEee6t1LwY=\""
+          "Value": "\"QSvFwnzADBbUAnbMfMF2DcOsdYZ+yXJHhns/piyr4DY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:17 GMT"
+          "Value": "Thu, 04 Sep 2025 13:23:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11868,18 +11910,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YyCurx0/eOPak+2l6JG9jwxZFbDhr8WTSyEee6t1LwY="
+          "Value": "sha256-QSvFwnzADBbUAnbMfMF2DcOsdYZ+yXJHhns/piyr4DY="
         }
       ]
     },
     {
       "Route": "_framework/DevelopmentSucks.WEB.pdb",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\kv1uil6w29-dkcou7ftip.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\kv1uil6w29-na8vdzcpqk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000029944602"
+          "Quality": "0.000026219192"
         }
       ],
       "ResponseHeaders": [
@@ -11889,15 +11931,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33394"
+          "Value": "38139"
         },
         {
           "Name": "ETag",
-          "Value": "\"2hmIMjOdtPe6II4ZLhotXPcD+nPH3Xdm9iA5tceLNWc=\""
+          "Value": "\"0SOcAy9rZJexsdEWTzmViN5ZSlfCDtcfrpPMZ0oJvOk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:18 GMT"
+          "Value": "Thu, 04 Sep 2025 13:23:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11917,19 +11959,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YyCurx0/eOPak+2l6JG9jwxZFbDhr8WTSyEee6t1LwY=\""
+          "Value": "W/\"QSvFwnzADBbUAnbMfMF2DcOsdYZ+yXJHhns/piyr4DY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YyCurx0/eOPak+2l6JG9jwxZFbDhr8WTSyEee6t1LwY="
+          "Value": "sha256-QSvFwnzADBbUAnbMfMF2DcOsdYZ+yXJHhns/piyr4DY="
         }
       ]
     },
     {
       "Route": "_framework/DevelopmentSucks.WEB.pdb.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\kv1uil6w29-dkcou7ftip.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\kv1uil6w29-na8vdzcpqk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11938,7 +11980,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33394"
+          "Value": "38139"
         },
         {
           "Name": "Content-Type",
@@ -11946,11 +11988,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2hmIMjOdtPe6II4ZLhotXPcD+nPH3Xdm9iA5tceLNWc=\""
+          "Value": "\"0SOcAy9rZJexsdEWTzmViN5ZSlfCDtcfrpPMZ0oJvOk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:18 GMT"
+          "Value": "Thu, 04 Sep 2025 13:23:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11968,7 +12010,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2hmIMjOdtPe6II4ZLhotXPcD+nPH3Xdm9iA5tceLNWc="
+          "Value": "sha256-0SOcAy9rZJexsdEWTzmViN5ZSlfCDtcfrpPMZ0oJvOk="
         }
       ]
     },
@@ -11983,7 +12025,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "62229"
+          "Value": "67349"
         },
         {
           "Name": "Content-Type",
@@ -11991,11 +12033,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qaL8lSmaijUYVXhV7Yf2rsRe2OLS67Nt6oAyf8e+bbw=\""
+          "Value": "\"4B/RHzTOh7Esh3SG6RRI3EdekfKmLdgzz5L5xq/5Jqc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:17 GMT"
+          "Value": "Thu, 04 Sep 2025 13:23:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12005,18 +12047,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qaL8lSmaijUYVXhV7Yf2rsRe2OLS67Nt6oAyf8e+bbw="
+          "Value": "sha256-4B/RHzTOh7Esh3SG6RRI3EdekfKmLdgzz5L5xq/5Jqc="
         }
       ]
     },
     {
       "Route": "_framework/DevelopmentSucks.WEB.wasm",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\s98ewqs8dd-huqnzmqsqk.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\s98ewqs8dd-8647r9xpj0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000049055678"
+          "Quality": "0.000044565266"
         }
       ],
       "ResponseHeaders": [
@@ -12026,15 +12068,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20384"
+          "Value": "22438"
         },
         {
           "Name": "ETag",
-          "Value": "\"f+O7XNKjf+pneYS2kW1AM+DwimX+57BmXLKwO7CQP9s=\""
+          "Value": "\"QzhYkYdfOgJA+90C79FDFVRvdllWpRKWHdAYO6oXkrU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:18 GMT"
+          "Value": "Thu, 04 Sep 2025 13:23:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12054,19 +12096,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qaL8lSmaijUYVXhV7Yf2rsRe2OLS67Nt6oAyf8e+bbw=\""
+          "Value": "W/\"4B/RHzTOh7Esh3SG6RRI3EdekfKmLdgzz5L5xq/5Jqc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qaL8lSmaijUYVXhV7Yf2rsRe2OLS67Nt6oAyf8e+bbw="
+          "Value": "sha256-4B/RHzTOh7Esh3SG6RRI3EdekfKmLdgzz5L5xq/5Jqc="
         }
       ]
     },
     {
       "Route": "_framework/DevelopmentSucks.WEB.wasm.gz",
-      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\s98ewqs8dd-huqnzmqsqk.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\s98ewqs8dd-8647r9xpj0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12075,7 +12117,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20384"
+          "Value": "22438"
         },
         {
           "Name": "Content-Type",
@@ -12083,11 +12125,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"f+O7XNKjf+pneYS2kW1AM+DwimX+57BmXLKwO7CQP9s=\""
+          "Value": "\"QzhYkYdfOgJA+90C79FDFVRvdllWpRKWHdAYO6oXkrU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 03:18:18 GMT"
+          "Value": "Thu, 04 Sep 2025 13:23:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12105,7 +12147,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-f+O7XNKjf+pneYS2kW1AM+DwimX+57BmXLKwO7CQP9s="
+          "Value": "sha256-QzhYkYdfOgJA+90C79FDFVRvdllWpRKWHdAYO6oXkrU="
         }
       ]
     },
@@ -13894,6 +13936,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-ooZCzAnB5b30z9EndeZhOgalrzRC7xBBNeH+lGdg/io="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FluentValidation.b28mz0qrx7.wasm",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FluentValidation.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "519957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UzXm5ONFC2YfuSahJleOJiIJNURatHcRQIkXq2hoPew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b28mz0qrx7"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FluentValidation.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UzXm5ONFC2YfuSahJleOJiIJNURatHcRQIkXq2hoPew="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FluentValidation.b28mz0qrx7.wasm",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\sed1fepvm5-b28mz0qrx7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000005834374"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171397"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vq22Wa0KNRaZ4IgeY77Dph3aAJewzn4NP7dwzctOuK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UzXm5ONFC2YfuSahJleOJiIJNURatHcRQIkXq2hoPew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b28mz0qrx7"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FluentValidation.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UzXm5ONFC2YfuSahJleOJiIJNURatHcRQIkXq2hoPew="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FluentValidation.b28mz0qrx7.wasm.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\sed1fepvm5-b28mz0qrx7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vq22Wa0KNRaZ4IgeY77Dph3aAJewzn4NP7dwzctOuK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b28mz0qrx7"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FluentValidation.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vq22Wa0KNRaZ4IgeY77Dph3aAJewzn4NP7dwzctOuK0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FluentValidation.wasm",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FluentValidation.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "519957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UzXm5ONFC2YfuSahJleOJiIJNURatHcRQIkXq2hoPew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UzXm5ONFC2YfuSahJleOJiIJNURatHcRQIkXq2hoPew="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FluentValidation.wasm",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\sed1fepvm5-b28mz0qrx7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000005834374"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171397"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vq22Wa0KNRaZ4IgeY77Dph3aAJewzn4NP7dwzctOuK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UzXm5ONFC2YfuSahJleOJiIJNURatHcRQIkXq2hoPew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UzXm5ONFC2YfuSahJleOJiIJNURatHcRQIkXq2hoPew="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FluentValidation.wasm.gz",
+      "AssetFile": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\obj\\Debug\\net9.0\\compressed\\sed1fepvm5-b28mz0qrx7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vq22Wa0KNRaZ4IgeY77Dph3aAJewzn4NP7dwzctOuK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vq22Wa0KNRaZ4IgeY77Dph3aAJewzn4NP7dwzctOuK0="
         }
       ]
     },

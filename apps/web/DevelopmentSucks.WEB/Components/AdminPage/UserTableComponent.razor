@@ -23,28 +23,6 @@
             <MudButton Variant="Variant.Filled" Color="Color.Primary">Редактировать</MudButton>
         </RowTemplate>
     </MudTable>
-
-    <br />
-
-    <MudTable Items="@_userRoles.Take(4)" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
-        <HeaderContent>
-            <MudTh>Id</MudTh>
-            <MudTh>Role</MudTh>
-            <MudTh>Users</MudTh>
-        </HeaderContent>
-        <RowTemplate>
-            <MudTd DataLabel="Id">@context.Id</MudTd>
-            <MudTd DataLabel="Email">@context.Role</MudTd>
-            <MudTd DataLabel="Username">
-                @foreach (var user in context.Users)
-                {
-                    @user.Username
-                }
-            </MudTd>
-
-            <MudButton Variant="Variant.Filled" Color="Color.Primary">Редактировать</MudButton>
-        </RowTemplate>
-    </MudTable>
 }
 
 @code {
@@ -52,17 +30,14 @@
     private string errorText = "Загрузка пользователей...";
 
     private IList<UserDto>? _users;
-    private IList<UserRole>? _userRoles;
 
     protected override async Task OnInitializedAsync()
     {
         try {
             var users = await Http.GetFromJsonAsync<List<UserDto>>("api/users");
-            var userRoles = await Http.GetFromJsonAsync<List<UserRole>>("api/userRoles");
 
-            if (users != null && userRoles != null) {
+            if (users != null) {
                 _users = users.ToList();
-                _userRoles = userRoles.ToList();
             } else {
                 errorText = "Список пользователей пуст";
             }

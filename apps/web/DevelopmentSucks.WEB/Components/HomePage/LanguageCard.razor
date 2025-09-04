@@ -1,16 +1,29 @@
-﻿<MudCard>
+﻿@inject IDialogService DialogService
+
+<MudCard>
     <MudCardMedia Image="images/test.png" Height="200" />
     <MudCardContent>
         <MudText Typo="Typo.h5">@Language.Title</MudText>
         <MudText Typo="Typo.body2">@Language.Description</MudText>
     </MudCardContent>
     <MudCardActions>
-        <MudButton Variant="Variant.Text" Color="Color.Primary">Поделиться</MudButton>
-        <MudButton Variant="Variant.Text" Color="Color.Primary">Подробнее</MudButton>
+        <MudButton Variant="Variant.Text" Color="Color.Primary">Перейти</MudButton>
+        <MudButton OnClick="OpenDialogAsync" Variant="Variant.Text" Color="Color.Primary">Подробнее</MudButton>
     </MudCardActions>
 </MudCard>
 
 @code {
     [Parameter, EditorRequired]
     public LanguageDto Language { get; set; } = default!;
+
+    private Task OpenDialogAsync()
+    {
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+
+        var parameters = new DialogParameters {
+            { nameof(Dialog.Language), Language }
+        };
+
+        return DialogService.ShowAsync<Dialog>("Simple Dialog", parameters, options);
+    }
 }

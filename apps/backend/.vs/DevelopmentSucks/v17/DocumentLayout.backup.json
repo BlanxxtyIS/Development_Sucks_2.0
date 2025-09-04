@@ -219,8 +219,7 @@
               "RelativeToolTip": "DevelopmentSucks.Domain\\Entities\\Lesson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:57:33.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:57:33.262Z"
             },
             {
               "$type": "Document",
@@ -232,8 +231,7 @@
               "RelativeToolTip": "DevelopmentSucks.Domain\\Entities\\Chapter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:57:06.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:57:06.973Z"
             },
             {
               "$type": "Document",
@@ -245,8 +243,7 @@
               "RelativeToolTip": "DevelopmentSucks.API\\Controllers\\UserRolesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:27:42.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:27:42.72Z"
             },
             {
               "$type": "Document",
@@ -258,8 +255,7 @@
               "RelativeToolTip": "DevelopmentSucks.Infrastructure\\Persistence\\Repositories\\UserRoleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:22:07.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:22:07.419Z"
             },
             {
               "$type": "Document",
@@ -283,8 +279,7 @@
               "RelativeToolTip": "DevelopmentSucks.API\\Controllers\\LessonsController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAACsAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T05:37:29.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T05:37:29.411Z"
             },
             {
               "$type": "Document",
@@ -296,8 +291,7 @@
               "RelativeToolTip": "DevelopmentSucks.API\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T08:46:51.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T08:46:51.741Z"
             },
             {
               "$type": "Document",
@@ -309,8 +303,7 @@
               "RelativeToolTip": "DevelopmentSucks.API\\Controllers\\LanguagesController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T05:37:29.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T05:37:29.732Z"
             },
             {
               "$type": "Document",
@@ -322,8 +315,7 @@
               "RelativeToolTip": "DevelopmentSucks.Infrastructure\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T15:29:55.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T15:29:55.674Z"
             },
             {
               "$type": "Document",
@@ -335,8 +327,7 @@
               "RelativeToolTip": "DevelopmentSucks.API\\Controllers\\ChaptersController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowDIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T16:25:29.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:25:29.476Z"
             },
             {
               "$type": "Document",
@@ -348,8 +339,7 @@
               "RelativeToolTip": "DevelopmentSucks.Domain\\Repositories\\IUserRoleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:25:14.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:25:14.287Z"
             },
             {
               "$type": "Document",
@@ -361,8 +351,7 @@
               "RelativeToolTip": "DevelopmentSucks.Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T05:27:19.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T05:27:19.046Z"
             },
             {
               "$type": "Document",
@@ -374,8 +363,7 @@
               "RelativeToolTip": "DevelopmentSucks.Application\\Services\\UserRoleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:26:05.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:26:05.205Z"
             },
             {
               "$type": "Document",
@@ -387,8 +375,7 @@
               "RelativeToolTip": "DevelopmentSucks.Application\\Services\\LessonsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:27:15.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:27:15.128Z"
             },
             {
               "$type": "Document",
@@ -424,8 +411,7 @@
               "RelativeToolTip": "DevelopmentSucks.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T09:14:56.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T09:14:56.006Z"
             },
             {
               "$type": "Document",
@@ -449,8 +435,7 @@
               "RelativeToolTip": "DevelopmentSucks.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T05:36:26.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T05:36:26.057Z"
             },
             {
               "$type": "Document",
@@ -462,8 +447,7 @@
               "RelativeToolTip": "DevelopmentSucks.Infrastructure\\Persistence\\Repositories\\LessonRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T05:37:08.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T05:37:08.549Z"
             },
             {
               "$type": "Document",
@@ -475,8 +459,7 @@
               "RelativeToolTip": "DevelopmentSucks.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:01:07.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:01:07.968Z"
             },
             {
               "$type": "Document",
@@ -488,8 +471,7 @@
               "RelativeToolTip": "DevelopmentSucks.Domain\\Entities\\AiHelpRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:02:04.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:02:04.57Z"
             },
             {
               "$type": "Document",
@@ -501,8 +483,7 @@
               "RelativeToolTip": "DevelopmentSucks.Domain\\Entities\\Enums\\Roles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:02:05.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:02:05.14Z"
             },
             {
               "$type": "Document",
@@ -538,8 +519,7 @@
               "RelativeToolTip": "DevelopmentSucks.Domain\\Entities\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T15:58:20.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T15:58:20.291Z"
             },
             {
               "$type": "Document",

@@ -1,8 +1,9 @@
 {
   "mainAssemblyName": "DevelopmentSucks.WEB",
   "resources": {
-    "hash": "sha256-IKkSCN6f6YISXFDSvFNUCS2NNIQug8hQVeMhZCxm9RU=",
+    "hash": "sha256-vHno9wZxMXuCaOFk9dsf6g+VHzcYBLNlB9EJtllN5og=",
     "fingerprinting": {
+      "FluentValidation.b28mz0qrx7.wasm": "FluentValidation.wasm",
       "Microsoft.AspNetCore.Authorization.n41ua9ceve.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.h4ild4sjod.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.9at76jd5um.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
@@ -204,8 +205,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "DevelopmentSucks.WEB.huqnzmqsqk.wasm": "DevelopmentSucks.WEB.wasm",
-      "DevelopmentSucks.WEB.dkcou7ftip.pdb": "DevelopmentSucks.WEB.pdb"
+      "DevelopmentSucks.WEB.8647r9xpj0.wasm": "DevelopmentSucks.WEB.wasm",
+      "DevelopmentSucks.WEB.na8vdzcpqk.pdb": "DevelopmentSucks.WEB.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -226,6 +227,7 @@
       "System.Private.CoreLib.fk089ohxy8.wasm": "sha256-3w3kRfKPH1QdD/KZ69pXxig13Aan9AlVD/FAJau8fC0="
     },
     "assembly": {
+      "FluentValidation.b28mz0qrx7.wasm": "sha256-UzXm5ONFC2YfuSahJleOJiIJNURatHcRQIkXq2hoPew=",
       "Microsoft.AspNetCore.Authorization.n41ua9ceve.wasm": "sha256-N6/4dp+rtuEu+iWs7ZZs30QrZzpGpF9KC6ulCWZCo2w=",
       "Microsoft.AspNetCore.Components.h4ild4sjod.wasm": "sha256-AYyXG0WrvwNEEX2QtbpR9AtYu26WKG+S10Q398vbgqY=",
       "Microsoft.AspNetCore.Components.Forms.9at76jd5um.wasm": "sha256-AZJqGXJM2Sos31wIr7syLy0TWCLYEWzemxDkwUyfPyk=",
@@ -418,10 +420,10 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "DevelopmentSucks.WEB.huqnzmqsqk.wasm": "sha256-qaL8lSmaijUYVXhV7Yf2rsRe2OLS67Nt6oAyf8e+bbw="
+      "DevelopmentSucks.WEB.8647r9xpj0.wasm": "sha256-4B/RHzTOh7Esh3SG6RRI3EdekfKmLdgzz5L5xq/5Jqc="
     },
     "pdb": {
-      "DevelopmentSucks.WEB.dkcou7ftip.pdb": "sha256-YyCurx0/eOPak+2l6JG9jwxZFbDhr8WTSyEee6t1LwY="
+      "DevelopmentSucks.WEB.na8vdzcpqk.pdb": "sha256-QSvFwnzADBbUAnbMfMF2DcOsdYZ+yXJHhns/piyr4DY="
     }
   },
   "cacheBootResources": true,

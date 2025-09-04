@@ -3,10 +3,11 @@
 
 @if (_loading)
 {
-    <p>@errorText</p>
+    <p>@_errorText</p>
 }
 else
 {
+    <h2>Languages</h2>
     <MudTable Items="@_languages.Take(4)" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
         <HeaderContent>
             <MudTh>Id</MudTh>
@@ -34,6 +35,7 @@ else
     <br />
     <br />
 
+    <h2>Chapters</h2>
     <MudTable Items="@_chapters.Take(4)" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
         <HeaderContent>
             <MudTh>Id</MudTh>
@@ -62,6 +64,7 @@ else
     <br />
     <br />
 
+    <h2>Lessons</h2>
     <MudTable Items="@_lessons.Take(4)" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
         <HeaderContent>
             <MudTh>Id</MudTh>
@@ -78,15 +81,21 @@ else
             <MudTd DataLabel="Username">@context.Title</MudTd>
             <MudTd DataLabel="Username">@context.Content</MudTd>
             <MudTd DataLabel="Username">@context.Order</MudTd>
-            <MudButton Variant="Variant.Filled" Color="Color.Primary">Редактировать</MudButton>
+            <MudButton OnClick="@(() => EditLesson(context))" Variant="Variant.Filled" Color="Color.Primary">Редактировать</MudButton>
             <MudIconButton Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Primary" Size="Size.Small" />
         </RowTemplate>
     </MudTable>
+
+    @if (_showEditForm && _selectedLesson != null) {
+        <EditComponent Lesson="_selectedLesson"/>
+    }
 }
 
 @code {
     private bool _loading = true;
-    private string errorText = "Загрузка глав...";
+    private string _errorText = "Загрузка глав...";
+    private bool _showEditForm = false;
+    private LessonDto? _selectedLesson;
 
     private IList<LanguageDto>? _languages;
     private IList<ChapterDto>? _chapters;
@@ -108,13 +117,18 @@ else
             }
             else
             {
-                errorText = "Список глав пуст";
+                _errorText = "Список глав пуст";
             }
             _loading = false;
         }
         catch (Exception ex)
         {
-            errorText = $"Ошибка: {ex.Message}";
+            _errorText = $"Ошибка: {ex.Message}";
         }
+    }
+
+    private async Task EditLesson(LessonDto lesson) {
+        _showEditForm = !_showEditForm;
+        _selectedLesson = lesson;
     }
 }

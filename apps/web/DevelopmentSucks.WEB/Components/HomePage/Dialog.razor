@@ -1,0 +1,21 @@
+﻿<MudDialog>
+    <TitleContent>
+        @Language.Title
+    </TitleContent>
+    <DialogContent>
+        @Language.Description
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Закрыть</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter]
+    private IMudDialogInstance MudDialog { get; set; }
+
+    [Parameter, EditorRequired]
+    public LanguageDto Language {get; set; } = default!;
+
+    private void Cancel() => MudDialog.Cancel();
+}

@@ -1,0 +1,37 @@
+﻿@using FluentValidation
+
+<MudCard>
+    <MudForm Model="@Lesson" @ref="@form" ValidationDelay="0">
+        <MudCardContent>
+            <MudTextField @bind-Value="Lesson.ChapterId"
+            For="@(() => Lesson.ChapterId)"
+            Immediate="true"
+            Label="Chapter Id" />
+
+            <MudTextField @bind-Value="Lesson.Title"
+            For="@(() => Lesson.Title)"
+            Immediate="true"
+            Label="Title" />
+
+            <MudTextField @bind-Value="Lesson.Content"
+            For="@(() => Lesson.Content)"
+            Immediate="true"
+            Label="Content" />
+        </MudCardContent>
+    </MudForm>
+    <MudCardActions>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto" OnClick="@(async () => await Submit())">Сохранить</MudButton>
+    </MudCardActions>
+</MudCard>
+
+@code {
+    [Parameter, EditorRequired]
+    public LessonDto Lesson { get; set; } = default!;
+
+    MudForm form;
+
+    private async Task Submit()
+    {
+        await form.Validate();
+    }
+}
