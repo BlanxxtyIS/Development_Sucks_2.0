@@ -2194,10 +2194,10 @@ C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\obj\Debu
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\obj\Debug\net9.0\refint\DevelopmentSucks.WEB.dll
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\obj\Debug\net9.0\DevelopmentSucks.WEB.pdb
 C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\obj\Debug\net9.0\ref\DevelopmentSucks.WEB.dll
-C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\bin\Debug\net9.0\wwwroot\_framework\DevelopmentSucks.WEB.x6o7fnae3e.pdb
-C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\bin\Debug\net9.0\wwwroot\_framework\DevelopmentSucks.WEB.x4qxu8dv1q.wasm
-C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\bin\Debug\net9.0\wwwroot\_framework\DevelopmentSucks.WEB.x6o7fnae3e.pdb.gz
-C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\bin\Debug\net9.0\wwwroot\_framework\DevelopmentSucks.WEB.x4qxu8dv1q.wasm.gz
-C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\obj\Debug\net9.0\compressed\s98ewqs8dd-x4qxu8dv1q.gz
-C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\obj\Debug\net9.0\compressed\kv1uil6w29-x6o7fnae3e.gz
-C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\obj\Debug\net9.0\compressed\49k8foyjjn-d87zek6ifz.gz
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\bin\Debug\net9.0\wwwroot\_framework\DevelopmentSucks.WEB.dkcou7ftip.pdb
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\bin\Debug\net9.0\wwwroot\_framework\DevelopmentSucks.WEB.huqnzmqsqk.wasm
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\bin\Debug\net9.0\wwwroot\_framework\DevelopmentSucks.WEB.dkcou7ftip.pdb.gz
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\bin\Debug\net9.0\wwwroot\_framework\DevelopmentSucks.WEB.huqnzmqsqk.wasm.gz
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\obj\Debug\net9.0\compressed\s98ewqs8dd-huqnzmqsqk.gz
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\obj\Debug\net9.0\compressed\kv1uil6w29-dkcou7ftip.gz
+C:\Users\Zver\Desktop\DevelopmentSucks2.0\apps\web\DevelopmentSucks.WEB\obj\Debug\net9.0\compressed\49k8foyjjn-qn1xpu1pb4.gz

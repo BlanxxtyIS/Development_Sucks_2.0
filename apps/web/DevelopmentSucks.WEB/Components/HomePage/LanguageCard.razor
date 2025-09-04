@@ -1,0 +1,16 @@
+﻿<MudCard>
+    <MudCardMedia Image="images/test.png" Height="200" />
+    <MudCardContent>
+        <MudText Typo="Typo.h5">@Language.Title</MudText>
+        <MudText Typo="Typo.body2">@Language.Description</MudText>
+    </MudCardContent>
+    <MudCardActions>
+        <MudButton Variant="Variant.Text" Color="Color.Primary">Поделиться</MudButton>
+        <MudButton Variant="Variant.Text" Color="Color.Primary">Подробнее</MudButton>
+    </MudCardActions>
+</MudCard>
+
+@code {
+    [Parameter, EditorRequired]
+    public LanguageDto Language { get; set; } = default!;
+}

@@ -1,4 +1,5 @@
 ﻿@page "/"
+@inject HttpClient Http;
 
 <PageTitle>Home</PageTitle>
 
@@ -6,3 +7,24 @@
 
 Welcome to your new app.
 
+@if(_languages == null) {
+    <p>Загрузка языков...</p>
+} else {
+    @foreach (var language in _languages) {
+        <LanguageCard Language="@language" />
+    }
+}
+
+@code {
+    private IList<LanguageDto>? _languages;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try {
+            _languages = await Http.GetFromJsonAsync<IList<LanguageDto>>("api/languages");
+        }
+        catch (HttpRequestException ex) {
+            Console.WriteLine($"Ошибка проблемы загрузки языка: {ex.Message}");
+        }
+    }
+}

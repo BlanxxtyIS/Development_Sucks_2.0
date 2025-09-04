@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\components\\adminpage\\swifttablecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\components\\adminpage\\swifttablecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\pages\\adminpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\pages\\adminpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\models\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\models\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\components\\homepage\\languagecard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\components\\homepage\\languagecard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\models\\languagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\models\\languagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\components\\adminpage\\usertablecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\components\\adminpage\\usertablecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\pages\\adminpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\pages\\adminpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\components\\adminpage\\swifttablecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\components\\adminpage\\swifttablecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\models\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\models\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\models\\chapterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|solutionrelative:developmentsucks.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5945C90-8D04-4A61-80C4-7EAA1B6A4258}|DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj|c:\\users\\zver\\desktop\\developmentsucks2.0\\apps\\web\\developmentsucks.web\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -87,6 +91,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "UserTableComponent.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Components\\AdminPage\\UserTableComponent.razor",
+              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Components\\AdminPage\\UserTableComponent.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Components\\AdminPage\\UserTableComponent.razor",
+              "RelativeToolTip": "DevelopmentSucks.WEB\\Components\\AdminPage\\UserTableComponent.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T12:19:53.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LanguageCard.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Components\\HomePage\\LanguageCard.razor",
+              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Components\\HomePage\\LanguageCard.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Components\\HomePage\\LanguageCard.razor",
+              "RelativeToolTip": "DevelopmentSucks.WEB\\Components\\HomePage\\LanguageCard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T02:56:39.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LanguageDto.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\LanguageDto.cs",
               "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Models\\LanguageDto.cs",
@@ -99,7 +129,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "LessonDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\LessonDto.cs",
+              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Models\\LessonDto.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\LessonDto.cs",
+              "RelativeToolTip": "DevelopmentSucks.WEB\\Models\\LessonDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T12:57:31.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChapterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\ChapterDto.cs",
+              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Models\\ChapterDto.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\ChapterDto.cs",
+              "RelativeToolTip": "DevelopmentSucks.WEB\\Models\\ChapterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T12:57:14.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminPage.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Pages\\AdminPage.razor",
+              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Pages\\AdminPage.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Pages\\AdminPage.razor",
+              "RelativeToolTip": "DevelopmentSucks.WEB\\Pages\\AdminPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T10:44:56.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\UserDto.cs",
+              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Models\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\UserDto.cs",
+              "RelativeToolTip": "DevelopmentSucks.WEB\\Models\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T12:01:24.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Pages\\Home.razor",
+              "RelativeToolTip": "DevelopmentSucks.WEB\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T07:59:35.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "DevelopmentSucks.WEB\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T07:54:53.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\_Imports.razor",
+              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\_Imports.razor",
+              "RelativeToolTip": "DevelopmentSucks.WEB\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T07:53:27.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SwiftTableComponent.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Components\\AdminPage\\SwiftTableComponent.razor",
               "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Components\\AdminPage\\SwiftTableComponent.razor",
@@ -112,98 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LessonDto.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\LessonDto.cs",
-              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Models\\LessonDto.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\LessonDto.cs",
-              "RelativeToolTip": "DevelopmentSucks.WEB\\Models\\LessonDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:57:31.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ChapterDto.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\ChapterDto.cs",
-              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Models\\ChapterDto.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\ChapterDto.cs",
-              "RelativeToolTip": "DevelopmentSucks.WEB\\Models\\ChapterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:57:14.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminPage.razor",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Pages\\AdminPage.razor",
-              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Pages\\AdminPage.razor",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Pages\\AdminPage.razor",
-              "RelativeToolTip": "DevelopmentSucks.WEB\\Pages\\AdminPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-03T10:44:56.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserTableComponent.razor",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Components\\AdminPage\\UserTableComponent.razor",
-              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Components\\AdminPage\\UserTableComponent.razor",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Components\\AdminPage\\UserTableComponent.razor",
-              "RelativeToolTip": "DevelopmentSucks.WEB\\Components\\AdminPage\\UserTableComponent.razor",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwEoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-03T12:19:53.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\UserDto.cs",
-              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Models\\UserDto.cs",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\UserDto.cs",
-              "RelativeToolTip": "DevelopmentSucks.WEB\\Models\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:01:24.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Pages\\Home.razor",
-              "RelativeToolTip": "DevelopmentSucks.WEB\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-03T07:59:35.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "DevelopmentSucks.WEB\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-03T07:54:53.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Layout\\MainLayout.razor",
@@ -211,12 +237,11 @@
               "RelativeToolTip": "DevelopmentSucks.WEB\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-03T07:54:38.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T07:54:38.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Program.cs",
               "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Program.cs",
@@ -224,12 +249,11 @@
               "RelativeToolTip": "DevelopmentSucks.WEB\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:54:21.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T07:54:21.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\Models\\UserRole.cs",
@@ -237,12 +261,11 @@
               "RelativeToolTip": "DevelopmentSucks.WEB\\Models\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:01:48.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:01:48.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\wwwroot\\index.html",
@@ -254,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\App.razor",
               "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\App.razor",
@@ -266,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DevelopmentSucks.WEB.csproj",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj",
               "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj",
@@ -274,21 +297,7 @@
               "RelativeToolTip": "DevelopmentSucks.WEB\\DevelopmentSucks.WEB.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-03T07:53:30.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\_Imports.razor",
-              "RelativeDocumentMoniker": "DevelopmentSucks.WEB\\_Imports.razor",
-              "ToolTip": "C:\\Users\\Zver\\Desktop\\DevelopmentSucks2.0\\apps\\web\\DevelopmentSucks.WEB\\_Imports.razor",
-              "RelativeToolTip": "DevelopmentSucks.WEB\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-03T07:53:27.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T07:53:30.625Z"
             }
           ]
         },
